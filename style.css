@@ -154,9 +154,11 @@ img.footer_icon {
 
 a.footer_item:first-of-type {
     margin-right: 100px;
-    cursor: pointer;
 }
 
 span.footer_copyright {
     margin-left: 25%;
+}
+a.footer_item {
+    cursor: pointer;
 }
