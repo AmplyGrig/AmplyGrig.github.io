@@ -85,7 +85,7 @@ span.excursions_cityname {
 .guide_info {
     display: inline-block;
     border: 3px solid #8473ff;
-    height: 150px;
+    height: 210px;
     width: 230px;
     border-top: none;
     margin: 0px 30px;
@@ -102,5 +102,10 @@ h2.page-logo_name {
     margin: 10px 0px 10px 5%;
     font-size: 35px;
     color: #8078ff;
+}
+img.guide_photo {
+    width: 150px;
+    height: 120px;
+    margin-top: 10px;
 }
 
