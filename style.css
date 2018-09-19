@@ -37,7 +37,7 @@ button.menu_search {
     cursor: pointer;
 }
 
-h4.excursions_caption {
+h4.excursions_caption, .guide_caption {
     width: 230px;
     margin: 0px 0px -45px;
     text-align: center;
@@ -45,7 +45,7 @@ h4.excursions_caption {
     color: white;
 }
 
-.excursions {
+.excursions,.guide {
     position: relative;
     text-align: center;
     margin: auto;
@@ -71,7 +71,7 @@ background: url(https://www.advantour.com/russia/images/moscow/moscow-kremlin.jp
 .excursions_city_moscow{
 background: url(https://www.advantour.com/russia/images/moscow/moscow-kremlin.jpg);
 }
-.excursions_citybox {
+.excursions_citybox, .guide_box {
     margin-top: 30px;
     border-top: 30px solid #8078ff;
 }
@@ -82,5 +82,25 @@ span.excursions_cityname {
     color: white;
     font-size: 25px;
 }
+.guide_info {
+    display: inline-block;
+    border: 3px solid #8473ff;
+    height: 150px;
+    width: 230px;
+    border-top: none;
+    margin: 0px 30px;
+}
+span.guide_name {
+    display: block;
+    margin-top: 20px;
+}
+.page-logo {
+    width: 100%;
+}
 
+h2.page-logo_name {
+    margin: 10px 0px 10px 5%;
+    font-size: 35px;
+    color: #8078ff;
+}
 
