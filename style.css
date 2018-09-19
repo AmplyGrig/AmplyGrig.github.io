@@ -1,3 +1,6 @@
+body{
+ min-width:1200px
+}
 .menu > * {
     display: inline-block;
     vertical-align: top;
